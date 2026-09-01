@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 2px solid hsl(0, 0%, 40%);
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    background-color: hsl(60, 100%, 74%);
+    width: 16em;
+    height:8em;
+    border-radius: 4px;
+}
+
+#myInput{
+    font-size: 1rem;
+    height: 38px;
+    width: 10em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding: 4px;
+    vertical-align: middle;
+}
+
+button{
+    border:none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    background-color:green ;
+    color: white;
+    border-radius: 4px;
+    padding: 7px;
+    cursor:pointer;
+    vertical-align: middle;
+}
+
+button:hover{
+    background-color: rgb(2, 194, 2);
+    color: white;
+}
+button:active{
+     background-color: rgb(31, 245, 31);
+    color: white;
+}
