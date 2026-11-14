@@ -28,7 +28,7 @@ function generatePass(length, includeLowerCase, includeUpperCase, includeNumbers
     return password;
 
 }
-const passwordLength = 12 ;
+const passwordLength = 8 ;
 const includeLowerCase = true ;
 const includeUpperCase = true;
 const includeNumbers = true ;

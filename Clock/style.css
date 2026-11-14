@@ -1,0 +1,31 @@
+body{
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(background2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#clock-container{
+    padding: 10px 15px;
+    margin-top: 200px;
+    margin-bottom: 25px;
+    border: 0.5px solid hsla(0, 97%, 50%, 0.3);
+    color: white;
+    font-size: 50px;
+    font-family: monospace;
+}
+
+#greeting{
+    color: rgb(243, 240, 245);
+    text-align: center;
+    font-family:cursive;
+    font-size: 30px;
+    font-weight:700;
+}
