@@ -8,6 +8,9 @@ function updateClock() {
   const time = `${hours12}:${minutes}:${seconds} ${meridiem}`;
   document.getElementById("clock").textContent = time;
 
+  const date = now.toLocaleDateString("en-IN", {year:"numeric", month:"short", day:"numeric"});
+  document.getElementById("date").textContent = date;
+
   let greeting;
   if (hours24 >= 5 && hours24 < 12) {
     greeting = "Good Morning!";

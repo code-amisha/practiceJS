@@ -15,7 +15,7 @@ body{
 #clock-container{
     padding: 10px 15px;
     margin-top: 200px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     border: 0.5px solid hsla(0, 97%, 50%, 0.3);
     color: white;
     font-size: 50px;
@@ -28,4 +28,13 @@ body{
     font-family:cursive;
     font-size: 30px;
     font-weight:700;
+    margin-bottom: 10px;
+}
+
+#date{
+     color:#FCD34D;
+    text-align: center;
+    font-family:monospace;
+    font-size: 20px;
+    font-weight:500;
 }
